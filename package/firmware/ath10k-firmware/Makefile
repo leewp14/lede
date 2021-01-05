@@ -104,7 +104,7 @@ $(eval $(call Download,ath10k-firmware-qca99x0-ct))
 QCA99X0_FIRMWARE_FILE_CT_HTT:=firmware-5-ct-full-htt-mgt-community-12.bin-lede.014
 define Download/ath10k-firmware-qca99x0-ct-htt
   $(call Download/ct-firmware-htt,QCA99X0,ath10k-10-4b)
-  HASH:=800dd0816702aaca75f3eb5436c2ea724a6c24833838cd54399b9286b4d4fbe8
+  HASH:=b6e3cb99adfd66c3d60c9aca1644ba7470a9e3ede7a8e089bc288cc3eac27a4a
 endef
 $(eval $(call Download,ath10k-firmware-qca99x0-ct-htt))
 
